@@ -12,6 +12,13 @@ namespace Ch03Ex02
         {
             double firstNumber, secondNumber;
             string userName;
+
+            Console.BackgroundColor= ConsoleColor.Red;
+            Console.Clear();
+            Console.ForegroundColor= ConsoleColor.Blue;
+
+            Console.Beep();
+
             Console.WriteLine("Enter your name:");
             userName = Console.ReadLine();
             Console.WriteLine("Welcome {0}!", userName);
@@ -21,12 +28,16 @@ namespace Ch03Ex02
             secondNumber = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("The sum of {0} and {1} is {2}.", firstNumber,
             secondNumber, firstNumber + secondNumber);
+            Console.Beep();
             Console.WriteLine("The result of subtracting {0} from {1} is {2}.",
             secondNumber, firstNumber, firstNumber - secondNumber);
+            Console.Beep();
             Console.WriteLine("The product of {0} and {1} is {2}.", firstNumber,
             secondNumber, firstNumber * secondNumber);
+            Console.Beep();
             Console.WriteLine("The result of dividing {0} by {1} is {2}.",
             firstNumber, secondNumber, firstNumber / secondNumber);
+            Console.Beep();
             Console.WriteLine("The remainder after dividing {0} by {1} is {2}.",
             firstNumber, secondNumber, firstNumber % secondNumber);
             Console.ReadKey();
