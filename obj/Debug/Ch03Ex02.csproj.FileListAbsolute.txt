@@ -8,7 +8,7 @@ C:\BegVCSharp\Chapter03\Ch03Ex02\obj\Debug\Ch03Ex02.pdb
 C:\VSRepositories\Ch03Ex02SRFN\bin\Debug\Ch03Ex02.exe.config
 C:\VSRepositories\Ch03Ex02SRFN\bin\Debug\Ch03Ex02.exe
 C:\VSRepositories\Ch03Ex02SRFN\bin\Debug\Ch03Ex02.pdb
-C:\VSRepositories\Ch03Ex02SRFN\obj\Debug\Ch03Ex02.csprojAssemblyReference.cache
 C:\VSRepositories\Ch03Ex02SRFN\obj\Debug\Ch03Ex02.csproj.CoreCompileInputs.cache
 C:\VSRepositories\Ch03Ex02SRFN\obj\Debug\Ch03Ex02.exe
 C:\VSRepositories\Ch03Ex02SRFN\obj\Debug\Ch03Ex02.pdb
+C:\VSRepositories\Ch03Ex02SRFN\obj\Debug\Ch03Ex02.csprojAssemblyReference.cache

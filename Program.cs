@@ -14,6 +14,7 @@ namespace Ch03Ex02
             double firstNumber, secondNumber;
             string userName;
             ConsoleKeyInfo input;
+            string supercalifragilisticexpialidocious;
 
             Console.BackgroundColor= ConsoleColor.Red;
             Console.Clear();
@@ -64,3 +65,37 @@ namespace Utilities
         }
     }   
 }
+
+//Excercises pages 45 and 46 Book
+//Excercise 3.1
+namespace super
+{
+    namespace smashing
+    {
+        class great{}
+        // great name defined
+    }
+}
+namespace fabulous
+{
+    // code in fabulous namespace
+    great sendstorm3453 = super.smashing.great();
+}
+
+
+//Excercise 3.2
+//myVariableIsGood:     LEGAL
+//99Flake               ILLEGAL, starts w/ a number
+//_floor                LEGAL
+//time2GetJiggyWidIt    LEGAL   
+//wrox.com              ILLEGAL, contains a full stop
+
+//Excercise 3.3
+//string supercalifragilisticexpialidocious;    LEGAL
+
+//Excercise 3.4
+//resultVar += (var1 * var2) + (var3 % (var4 / var5));
+//resultVar += (var1 * var2) + ((var3 % var4) / var5));
+
+//Excercise 3.5
+
