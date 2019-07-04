@@ -51,6 +51,8 @@ namespace Ch03Ex02
             Console.WriteLine("The remainder after dividing {0} by {1} is {2}.",
             firstNumber, secondNumber, firstNumber % secondNumber);
             Console.ReadKey();
+
+            exercises.ExercisesSerafin();
         }
     }
 }
@@ -72,16 +74,23 @@ namespace super
 {
     namespace smashing
     {
-        class great{}
+        public class great{}
         // great name defined
     }
 }
 namespace fabulous
 {
-    // code in fabulous namespace
-    great sendstorm3453 = super.smashing.great();
+    class test
+        {
+                // code in fabulous namespace
+                super.smashing.great sendstorm3453;
+        }
+    
 }
 
+namespace exercises
+{
+    
 
 //Excercise 3.2
 //myVariableIsGood:     LEGAL
@@ -97,5 +106,19 @@ namespace fabulous
 //resultVar += (var1 * var2) + (var3 % (var4 / var5));
 //resultVar += (var1 * var2) + ((var3 % var4) / var5));
 
-//Excercise 3.5
+ class ExercisesSerafin
+    {
+            double double1;
+            double double2;
+            double double3;
+            double double4;
 
+            //Excercise 3.5
+            Console.WriteLine("Please insert value 1:");
+            double1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Value 1 is: " + double1);
+            Console.ReadLine();
+    }
+
+
+}
