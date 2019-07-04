@@ -11,6 +11,7 @@ namespace Ch03Ex02
     {
         static void Main(string[] args)
         {
+            bool hola = 6 < 10;
             double firstNumber, secondNumber;
             string userName;
             ConsoleKeyInfo input;
